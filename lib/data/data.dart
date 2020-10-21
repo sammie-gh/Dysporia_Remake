@@ -6,13 +6,32 @@ List<CategorieModel> getCategories() {
   List<CategorieModel> categories = new List();
   CategorieModel categorieModel = new CategorieModel();
 
-    // Women
+  // Women
   categorieModel.imgUrl =
       "https://images.pexels.com/photos/2873674/pexels-photo-2873674.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260";
   categorieModel.categorieName = "African woman";
   categories.add(categorieModel);
   categorieModel = new CategorieModel();
 
+ 
+  categorieModel.imgUrl =
+      "https://images.pexels.com/photos/4673418/pexels-photo-4673418.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
+  categorieModel.categorieName = "Black woman";
+  categories.add(categorieModel);
+  categorieModel = new CategorieModel();
+
+// men
+  categorieModel.imgUrl =
+      "https://images.pexels.com/photos/3261007/pexels-photo-3261007.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
+  categorieModel.categorieName = "Black man";
+  categories.add(categorieModel);
+  categorieModel = new CategorieModel();
+ 
+  categorieModel.imgUrl =
+      "https://images.pexels.com/photos/2379429/pexels-photo-2379429.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
+  categorieModel.categorieName = "African man";
+  categories.add(categorieModel);
+  categorieModel = new CategorieModel();
 
   //
   categorieModel.imgUrl =

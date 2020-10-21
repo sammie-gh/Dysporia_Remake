@@ -56,7 +56,7 @@ Widget brandName() {
     mainAxisAlignment: MainAxisAlignment.center,
     children: <Widget>[
       Text(
-        "Africa Diaspora ",
+        "African Diaspora ",
         style: TextStyle(color: Colors.black87, fontFamily: 'Overpass'),
       ),
       Text(
